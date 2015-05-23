@@ -1,0 +1,38 @@
+body {
+    font-family: 'Montserrat', serif, sans-serif;
+    margin: 50px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.entry {
+    width: 90%;
+    max-width: 675px;
+    margin: 0 auto 70px;
+    color: #1A181B;
+}
+
+
+.entry h2 {
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+
+.postcard {
+    width: 100%;
+    height: auto;
+    outline: 1px solid #ccc;
+    border: 5px solid #fff;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
