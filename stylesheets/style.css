@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 50px auto;
+    margin: 60px auto;
 }
 
 h1 {
@@ -9,7 +9,7 @@ h1 {
 
 .entry {
     width: 90%;
-    max-width: 675px;
+    max-width: 680px;
     margin: 0 auto 70px;
     color: #1A181B;
 }
