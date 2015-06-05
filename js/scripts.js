@@ -18,14 +18,14 @@ var SITE = {
     },
 
     showBack: function(e) {
-        $el = $(e.currentTarget);
+        var $el = $(e.currentTarget);
         $el.addClass('hide');
         var id = $el.attr('id').slice(0,2);
         $('#'+id+'b').removeClass('hide');
     },
 
     showFront: function(e) {
-        $el = $(e.currentTarget);
+        var $el = $(e.currentTarget);
         $el.addClass('hide');
         var id = $el.attr('id').slice(0,2);
         $('#'+id+'f').removeClass('hide');
